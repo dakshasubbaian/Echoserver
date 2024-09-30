@@ -52,7 +52,7 @@ PORT = 65432  # The port used by the server
 
 with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
     s.connect((HOST, PORT))
-    s.sendall(b"Hello, world")
+    s.sendall(b"Daksha Subbaian")
     data = s.recv(1024)
 
 
@@ -64,7 +64,8 @@ print(f"Received {data!r}")
 ![image](https://github.com/user-attachments/assets/f5b538e5-1fc2-4d8f-92f5-5e938d91dba9)
 
 ### Client side:
-![image](https://github.com/user-attachments/assets/620f4b55-9c4b-4afb-bbe7-2c6a5326496c)
+![image](https://github.com/user-attachments/assets/28c61b7e-a8f4-4ed5-bc3e-2c00146d1b96)
+
 
 
 
